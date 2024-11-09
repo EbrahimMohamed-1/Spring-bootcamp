@@ -1,5 +1,5 @@
 # 50 SQL questions
-
+## Table of contents
 * ### [`Easy`](#easy)
 * ### [`Medium`](#medium)
 *  ### [`Advanced`](#advanced) 

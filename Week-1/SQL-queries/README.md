@@ -60,8 +60,9 @@ INSERT INTO Title (WORKER_REF_ID, WORKER_TITLE, AFFECTED_FROM) VALUES
 
 ## Table of contents
 
-* ### [`Easy`](https://github.com/ebrahimMohamed11/Spring-bootcamp/edit/main/Week-1/SQL-queries/README.md#easy)
-* * ### [`Easy`](#medium) 
+* ### [`Easy`](#easy)
+* ### [`Medium`](#medium)
+*  ### [`Advanced`](#advanced) 
 
 ## Questions & answers
 

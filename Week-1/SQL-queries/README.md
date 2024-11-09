@@ -1,7 +1,13 @@
 # 50 SQL questions
 
+* ### [`Easy`](#easy)
+* ### [`Medium`](#medium)
+*  ### [`Advanced`](#advanced) 
+
+<br/>
+
 ### start by running the readymade SQL scripts to create the test data. These scripts include a sample Worker table, a Bonus, and a Title table with pre-filled data
-<br/><br/>
+<br/>
 
 ``` sql
 CREATE TABLE Worker (
@@ -58,11 +64,6 @@ INSERT INTO Title (WORKER_REF_ID, WORKER_TITLE, AFFECTED_FROM) VALUES
 
 <br/>
 
-## Table of contents
-
-* ### [`Easy`](#easy)
-* ### [`Medium`](#medium)
-*  ### [`Advanced`](#advanced) 
 
 ## Questions & answers
 

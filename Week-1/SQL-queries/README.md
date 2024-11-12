@@ -1,7 +1,13 @@
 # 50 SQL questions
+* ### [`Start`](#start-by-running-the-readymade-sql-scripts-to-create-the-test-data-these-scripts-include-a-sample-worker-table-a-bonus-and-a-title-table-with-pre-filled-data)
+* ### [`Easy`](#easy-1)
+* ### [`Medium`](#medium-1)
+*  ### [`Advanced`](#advanced-1) 
+
+<br/>
 
 ### start by running the readymade SQL scripts to create the test data. These scripts include a sample Worker table, a Bonus, and a Title table with pre-filled data
-<br/><br/>
+<br/>
 
 ``` sql
 CREATE TABLE Worker (
@@ -57,6 +63,7 @@ INSERT INTO Title (WORKER_REF_ID, WORKER_TITLE, AFFECTED_FROM) VALUES
 ```
 
 <br/>
+
 
 ## Questions & answers
 

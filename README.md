@@ -1,6 +1,6 @@
 # Spring-bootcamp
-<br/><br/><br/>
+<br/><br/>
 
-## Table fo contents
-### * [`SQL queries`](Week-1/SQL-queries) 
-### * [`InversionOfControlEX`](Week-1/InversionOfControlEX) 
+## Table fo content
+* ### [`SQL queries`](Week-1/SQL-queries) 
+* ### [`InversionOfControlEX`](Week-1/InversionOfControlEX) 

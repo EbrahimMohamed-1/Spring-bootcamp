@@ -1,0 +1,5 @@
+org.Vehicles.config.config=org.springframework.stereotype.Component
+org.Vehicles.controller.VehicleController=org.springframework.stereotype.Component
+org.Vehicles.dao.DBconnection=org.springframework.stereotype.Component
+org.Vehicles.dao.DBoperations=org.springframework.stereotype.Component
+org.Vehicles.models.VehiclesDTO=org.springframework.stereotype.Component

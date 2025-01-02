@@ -8,3 +8,4 @@
 * ### [`Inject literial values`](Week-2/InjectLiterialValues)
 * ### [`Bean scope and lifecycle`](Week-3/BeanScopeAndLifecycle) 
 * ### [`Vehicles system`](Week-3/VehiclesSystem) 
+* ### [`MVC part 1`](Week-4/Spring-MVC-Part1) 

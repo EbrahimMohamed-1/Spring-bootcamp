@@ -9,3 +9,4 @@
 * ### [`Bean scope and lifecycle`](Week-3/BeanScopeAndLifecycle) 
 * ### [`Vehicles system`](Week-3/VehiclesSystem) 
 * ### [`MVC part 1`](Week-4/Spring-MVC-Part1) 
+* ### [`Hibernate part 1`](Week-6/hib) 

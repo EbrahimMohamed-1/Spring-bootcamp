@@ -1,0 +1,1 @@
+org.example.Student=javax.persistence.Entity,javax.persistence.Table

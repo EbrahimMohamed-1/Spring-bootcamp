@@ -10,3 +10,4 @@
 * ### [`Vehicles system`](Week-3/VehiclesSystem) 
 * ### [`MVC part 1`](Week-4/Spring-MVC-Part1) 
 * ### [`Hibernate part 1`](Week-6/hib) 
+* ### [`Hibernate part 2 ID generation strategies and HQL`](Week-6/hibernateGenAndHQL) 

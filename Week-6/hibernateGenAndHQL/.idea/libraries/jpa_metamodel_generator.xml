@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jpa-metamodel-generator">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../spring-libs/hibernate-release-5.2.18.Final/lib/jpa-metamodel-generator" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../spring-libs/hibernate-release-5.2.18.Final/lib/jpa-metamodel-generator" recursive="false" />
+  </library>
+</component>

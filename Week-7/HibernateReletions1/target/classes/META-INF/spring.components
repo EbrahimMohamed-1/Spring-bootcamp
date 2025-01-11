@@ -1,0 +1,2 @@
+org.example.model.Passport=javax.persistence.Entity,javax.persistence.Table
+org.example.model.Person=javax.persistence.Entity,javax.persistence.Table

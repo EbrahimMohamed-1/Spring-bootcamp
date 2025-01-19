@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .form-group input[type="radio"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        .form-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        .form-group .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .form-group .radio-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #d32f2f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+<div class="form-container">
+    <h1>User Form</h1>
+    <form>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Administrator">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="********">
+        </div>
+        <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country">
+                <option value="brazil">Brazil</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="india">India</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Preferred Programming Language</label>
+            <div class="radio-group">
+                <label><input type="radio" name="language" value="java"> Java</label>
+                <label><input type="radio" name="language" value="csharp" > C#</label>
+                <label><input type="radio" name="language" value="php"> PHP</label>
+                <label><input type="radio" name="language" value="ruby"> Ruby</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Preferred Operating System</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="os" value="linux" > Linux</label>
+                <label><input type="checkbox" name="os" value="macos" > Mac OS</label>
+                <label><input type="checkbox" name="os" value="windows"> MS Windows</label>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

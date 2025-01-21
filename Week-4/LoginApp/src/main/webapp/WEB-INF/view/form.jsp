@@ -44,18 +44,18 @@
     <div class="form-group">
       <label>Preferred Programming Language</label>
       <div class="radio-group" >
-        <label><form:radiobutton type="radio" name="programmingLanguage" value="java" path="programmingLanguage"/> Java</label>
-        <label><form:radiobutton type="radio" name="programmingLanguage" value="csharp" path="programmingLanguage"/> C#</label>
-        <label><form:radiobutton type="radio" name="programmingLanguage" value="php" path="programmingLanguage" /> PHP</label>
-        <label><form:radiobutton type="radio" name="programmingLanguage" value="ruby" path="programmingLanguage" /> Ruby</label>
+        Java<form:radiobutton path="programmingLanguage" value="Java" />
+        C# <form:radiobutton path="programmingLanguage" value="C#" />
+        PHP <form:radiobutton path="programmingLanguage" value="PHP" />
+        Ruby <form:radiobutton path="programmingLanguage" value="Ruby" />
       </div>
     </div>
     <div class="form-group">
       <label>Preferred Operating System</label>
       <div class="checkbox-group">
-        <label><form:radiobutton type="checkbox" name="os" value="linux" path="operatingSystem"/> Linux</label>
-        <label><form:radiobutton type="checkbox" name="os" value="macos" path="operatingSystem" /> Mac OS</label>
-        <label><form:radiobutton type="checkbox" name="os" value="windows" path="operatingSystem" /> MS Windows</label>
+        Linux <form:checkbox path="operatingSystem" value="Linux" />
+        Mac OS <form:checkbox path="operatingSystem" value="Mac OS" />
+        MS Windows <form:checkbox path="operatingSystem" value="MS Windows" />
       </div>
     </div>
     <button type="submit">Submit</button>

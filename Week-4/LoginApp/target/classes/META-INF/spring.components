@@ -1,3 +1,0 @@
-com.app.config.webConfig=org.springframework.stereotype.Component
-com.app.controller.FormController=org.springframework.stereotype.Component
-com.app.model.User=org.springframework.stereotype.Component
